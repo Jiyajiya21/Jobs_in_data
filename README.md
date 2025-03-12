@@ -1,10 +1,12 @@
 # Jobs_in_data
+
+## Goal
 The goal of this project was to provide insights into the current data science job market, discovering the factors that influence salaries and job opportunities in the field of data.
 
-# Targeted Audience
+## Targeted Audience
 The goal of this project to target the job seekers to get some usefull insights particularly in the Data Science and Research category.
 
-# Process
+## Process
 This project was created in MySQLWorkbench. The file containing the Dataset is a .csv, which I then added to a database.
 Before digging into the data, these were the clean processes i did:
 - **Understanding the dataset**
