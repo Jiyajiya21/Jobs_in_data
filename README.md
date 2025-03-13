@@ -1,14 +1,14 @@
 # Jobs_in_data
 
-## Goal
+## Objective
 The goal of this project was to provide insights into the current data science job market, discovering the factors that influence salaries and job opportunities in the field of data.
-
+    
 ## Targeted Audience
 The goal of this project to target the job seekers to get some usefull insights particularly in the Data Science and Research category.
 
 ## Process
 This project was created in MySQLWorkbench. The file containing the Dataset is a .csv, which I then added to a database.
-Before digging into the data, these were the clean processes i did:
+Before digging into the data, these were the clean processes I did:
 - **Understanding the dataset**
     We are working with a dataset from [`Kaggle`](https://www.kaggle.com/datasets/hummaamqaasim/jobs-in-data/data) that has information on Data Science Salaries and Jobs with the following columns:
     
@@ -17,10 +17,10 @@ Before digging into the data, these were the clean processes i did:
     **job_category**: A classification of the job role into broader categories like ‘Data Analysis’, ‘Data Engineering’
     **salary_currency**: The currency in which the salary is paid, such as USD, EUR, etc.
     **salary**: The annual gross salary of the role in the local currency.    
-    **salary_in_usd**: The annual gross salary converted to United States Dollars (USD).    
-    **employee_residence**: The country of residence of the employee.   
+    **salary_in_usd**: The yearly gross salary converted to United States Dollars (USD).    
+    **employee_residence**: The employee's country of residence.   
     **experience_level**: Classifies the professional experience level of the employee. Common categories might include 'Entry-level', 'Mid-level', 'Senior', and 'Executive'.    
-    **employment_type**: Specifies the type of employment, such as 'Full-time', 'Part-time', 'Contract'.    
+    **employment_type**: Specifies the type of employment, such as 'Full-time', 'Part-time', or 'Contract'.    
     **work_setting**: The work setting or environment, like 'Remote', 'In-person', or 'Hybrid'.    
     **company_location**: The country where the company is located.   
     **company_size**: The size of the employer company, often categorized into small (S), medium (M), and large (L) sizes.
@@ -28,7 +28,7 @@ Before digging into the data, these were the clean processes i did:
 - **What is the size of the dataset?**
 - **What are the potential issues and how I dealt with them?**
     - **Same numbers, different format**   
-        Since we have `salary_currency` , `salary` and `salary_in_usd`, we will only use `salary_in_usd` because it’s an effective way to analyze the data and compare salaries.
+        Since we have `salary_currency`, `salary`, and `salary_in_usd`, we will only use `salary_in_usd` because it’s an effective way to analyze the data and compare salaries.
         
 - **Checking data in Work_year** 
     ```
