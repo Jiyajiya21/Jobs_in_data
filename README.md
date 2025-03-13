@@ -96,7 +96,7 @@ I divided my analysis in results to a variety of questions. Feel free to check t
 - What is the most common experience level among data science professionals?
 - In which location do Data Analysts receive the highest average salary?
 
-    Review the SQL File for Queries and deep understanding
+    Review the ![SQL File](Jobs_in_data.sql) for Queries and deep understanding
 
   # Conclusion
   
